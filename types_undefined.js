@@ -15,6 +15,10 @@ const returnNothing = () => {
 }
 console.log(`Type of returnNothing return value: ${typeof(returnNothing())}`);
 
+// Property of object that does not exist
+const someObject = {};
+console.log(`Type of non-existent property in object: ${someObject.nothing}`);
+
 
 
 
