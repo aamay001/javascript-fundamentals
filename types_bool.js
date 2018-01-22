@@ -18,7 +18,7 @@ if (boolVar) { // If the value of boolVar is true
 
 console.log('if (!boolVar)');
 if (!boolVar) { // If the value of boolVar is false
-  console.log(`boolVar was false`);
+  console.log('boolVar was false');
 } else {
   console.log('boolVar was true')
 }
