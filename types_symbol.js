@@ -1,4 +1,4 @@
-// Create a new Symbol
+// Create a new Symbol; each instance is unique
 let symVar = Symbol('some value');
 console.log("Value of symVar: ", symVar);
 console.log(`Type of symVar: ${typeof(symVar)}`);
@@ -19,5 +19,5 @@ console.log('Value of objWithSymProp', objWithSymProp);
 // Return correct value
 console.log(`Value of objWithSymProp prop: ${objWithSymProp[symVar]}`); // prop1
 
-// Even though symVar2 was initialized with the same Symbol argunemt, it is not the same as symVar
+// Even though symVar2 was initialized with the same Symbol argument, it is not the same as symVar
 console.log(`Value of objWithSymProp prop: ${objWithSymProp[symVar2]}`); // undefined
