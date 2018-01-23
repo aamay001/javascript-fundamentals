@@ -20,14 +20,12 @@ scopeExample(); // Calling is okay becuase function is hoisted to top of global 
 function scopeExample() {
     // Local Scope Inside of function
     let controller = false;
-    if ( !controller ) {
+    if (!controller) {
         // Local scope inside of if
         controller = true; // Can be accessed because it's nested inside of function scope
-        count++; // From global scope on line 3
+        count++; // From global scope on line 2
     }
-
     print(controller); // okay because inside of local scope
-
     function print(val) {
         console.log(val)
     }
