@@ -5,6 +5,7 @@ https://auth0.com/blog/a-brief-history-of-javascript/
 
 Equality Checking
 http://dorey.github.io/JavaScript-Equality-Table/
+https://www.sitepoint.com/javascript-truthy-falsy/
 
 W3 Schools
 https://www.w3schools.com/js/default.asp
