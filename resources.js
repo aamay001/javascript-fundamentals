@@ -23,4 +23,7 @@ Instructional Videos
 https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q // Fun Fun Function
 https://www.youtube.com/channel/UC2JNTaq_crzfZOu9Aq96LsA // JavaScriptLA
 
+Coercion
+https://www.safaribooksonline.com/library/view/you-dont-know/9781491905159/ch04.html
+
 */
