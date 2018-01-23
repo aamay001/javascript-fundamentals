@@ -32,4 +32,4 @@ function scopeExample() {
     }
 }
 
-controller = true; // Creates a global variable; does not access line 14 variable
+controller = true; // Creates a global variable; does not access line 21 variable
