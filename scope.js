@@ -1,7 +1,7 @@
 // Global Scope
 var count = 0; // This variable is defined in the global scope
 
-if ( count < 1) { // Local Scope inside of if statement
+if (count < 1) { // Local Scope inside of if statement
     count++;
 }
 
