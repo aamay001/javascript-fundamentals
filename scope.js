@@ -1,5 +1,6 @@
 // Global Scope
-let count = 0;
+var count = 0; // This variable is defined in the global scope
+
 if ( count < 1) { // Local Scope inside of if statement
     count++;
 }
@@ -9,7 +10,7 @@ for ( let i = 0; i < 2; i++ ) {
 }
 
 try {
-    print(5); // causes error because print is not defined in global scope
+    print(5); // causes error because print is not defined in global scope (defined on line 31)
 } catch (err) {
     console.log(err.message);
 }
@@ -32,4 +33,9 @@ function scopeExample() {
     }
 }
 
-controller = true; // Creates a global variable; does not access line 21 variable
+try {
+    console.log(controller) // throws error bc it does not exist in the current execution context
+} catch (err) {
+    console.error(err.message);
+}
+controller = true; // Creates a global variable; is not line 22 variable
